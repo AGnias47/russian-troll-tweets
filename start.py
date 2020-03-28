@@ -6,9 +6,9 @@
 #   Python 3.7.5
 #   Vim 8.1
 
-import data_utilities
-from tweet import Tweet
+import utilities.data
+from tweet.tweet import Tweet
 
-data = data_utilities.read_csv_as_list_of_dicts("IRAhandle_tweets_13.csv")
+data = utilities.data.read_csv_as_list_of_dicts("data/IRAhandle_tweets_13.csv")
 tweets = [Tweet(tweet) for tweet in data]
 print(tweets[0])
