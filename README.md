@@ -1,3 +1,11 @@
+# Forked repository of fivethirtyeight/russian-troll-tweets
+This repository is a fork of [fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets).
+
+Its initial purpose will be to provide a basic analysis of the data, with the project likely changing and expanding in 
+scope.
+
+This project is a work in progress, but any code in this repository should be functional.
+
 # 3 million Russian troll tweets
 
 This data was used in the FiveThirtyEight story [Why We’re Sharing 3 Million Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/).
