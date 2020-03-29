@@ -96,6 +96,15 @@ def clean_words_list(words):
         "how",
         "us",
         "it's",
+        "these",
+        "day",
+        "2",
+        "want",
+        "back",
+        "still",
+        "only",
+        "some",
+        "says",
     }
     words = list(filter(lambda x: x not in common_words, words))
     # Need to account for words linked to punctuation
