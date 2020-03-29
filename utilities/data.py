@@ -107,5 +107,6 @@ def clean_words_list(words):
         "says",
     }
     words = list(filter(lambda x: x not in common_words, words))
-    # Need to account for words linked to punctuation
+    words = [w.replace("?", "").replace(".", "").replace("!", "") for w in words]
+    words = list(filter(lambda x: len(x) > 0, words))
     return words
