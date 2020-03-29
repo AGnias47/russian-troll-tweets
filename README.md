@@ -2,7 +2,7 @@
 This repository is a fork of [fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets).
 
 Its initial purpose will be to provide a basic analysis of the data, with the project likely changing and expanding in 
-scope.
+scope. Current end goal is to create a wordcloud of frequently used words in tweets.
 
 This project is a work in progress, but any code in this repository should be functional.
 
