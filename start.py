@@ -48,3 +48,7 @@ plt.ylabel("Number of Tweets")
 for i, v in enumerate(count):  # Used to plot values; centering imperfect
     plt.text(i - 0.25, v + (max(count) * 0.01), str(v))
 plt.show()
+
+# Get the English tweets
+english_tweets = list(filter(lambda x: x.language == "English", tweets))
+print(len(english_tweets))
